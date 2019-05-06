@@ -1,0 +1,42 @@
+.container{
+    max-width: 900px;
+    margin: auto;
+    border: solid thin;
+    border-radius: .5em;
+    padding: 1em;
+    text-align: center;
+}
+
+.content{
+    padding: 3px;    
+}
+
+#answer{
+    text-align: center;    
+}
+
+.feedback{
+    min-height: 60px;
+    padding: 1em;
+    font-weight: 550;
+    font-size: 1.5em;
+}
+
+.counter{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 300px;
+    margin: auto;
+}
+
+.acertos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: green;
+}
+
+.erros{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: red;
+}
